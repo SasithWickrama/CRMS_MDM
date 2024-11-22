@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:SLTITSODevOps">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:updateUat soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <crno xsi:type="xsd:string">{CRNO}</crno>
+         <stat xsi:type="xsd:string">completed</stat>
+         <comment xsi:type="xsd:string">MDM_Conf</comment>
+      </urn:updateUat>
+   </soapenv:Body>
+</soapenv:Envelope>
